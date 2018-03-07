@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.baidu.classmanager.InsideListView
+    android:id="@+id/container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/content"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:text="测试"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/delete"
+        android:text="删除"
+        android:gravity="center"
+        android:background="@color/red"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_width="80dp"
+        android:layout_height="match_parent" />
+</com.example.baidu.classmanager.InsideListView>
